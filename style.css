@@ -8,15 +8,24 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-.genera-password {
-    display: none;
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #b0e9f2;
 }
 
-.visibile {
+#genera-password {
+    display: none;
+    margin-left: 20px;
+}
+
+#genera-password.visibile {
     display: block;
 }
 
 #password {
+    margin-left: 20px;
+    line-height: 50px;
     color: blue;
     font-weight: bold;
 }

@@ -11,5 +11,5 @@ console.log (colore);
 var numero = 19
 // collego la password all'id "password"
 document.getElementById ("password").innerHTML = nome + cognome + colore + numero;
-// rendo visibile la descrizione solo quando ho compilato i prompt e la password è stata generata
-document.getElementById ("genera-password").setAttribute ("class", "visible");
+// rendo visibile la descrizione e il contenitore della password solo quando ho compilato i prompt
+document.getElementById("genera-password").setAttribute("class", "visibile");
